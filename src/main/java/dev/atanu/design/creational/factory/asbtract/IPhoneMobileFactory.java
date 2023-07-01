@@ -7,7 +7,7 @@ package dev.atanu.design.creational.factory.asbtract;
  * @author Atanu Bhowmick
  *
  */
-public class IphoneMobileFactory implements AbstractFactory {
+public class IPhoneMobileFactory implements AbstractFactory {
 
 	@Override
 	public Mobile getMobile(String mobileModel) {

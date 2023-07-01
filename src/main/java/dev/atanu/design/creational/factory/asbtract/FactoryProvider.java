@@ -16,7 +16,7 @@ public class FactoryProvider {
 		if (type.equalsIgnoreCase("Android")) {
 			return new AndroidMobileFactory();
 		} else if (type.equalsIgnoreCase("IPhone")) {
-			return new IphoneMobileFactory();
+			return new IPhoneMobileFactory();
 		}
 		return null;
 	}
