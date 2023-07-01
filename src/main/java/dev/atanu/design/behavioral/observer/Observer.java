@@ -1,7 +1,7 @@
 /**
  * 
  */
-package dev.atanu.design.pattern.observer;
+package dev.atanu.design.behavioral.observer;
 
 /**
  * @author Atanu Bhowmick

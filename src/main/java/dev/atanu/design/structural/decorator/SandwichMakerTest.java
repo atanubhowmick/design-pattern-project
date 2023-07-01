@@ -1,7 +1,7 @@
 /**
  * 
  */
-package dev.atanu.design.pattern.decorator;
+package dev.atanu.design.structural.decorator;
 
 /**
  * @author Atanu Bhowmick
