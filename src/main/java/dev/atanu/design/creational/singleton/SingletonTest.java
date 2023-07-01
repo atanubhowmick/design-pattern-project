@@ -1,7 +1,7 @@
 /**
  * 
  */
-package dev.atanu.design.creational.factory.singleton;
+package dev.atanu.design.creational.singleton;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
