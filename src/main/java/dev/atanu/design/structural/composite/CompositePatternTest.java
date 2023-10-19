@@ -5,6 +5,7 @@ package dev.atanu.design.structural.composite;
 
 /**
  * https://www.baeldung.com/java-composite-pattern
+ * https://www.geeksforgeeks.org/composite-design-pattern/
  * 
  * @author Atanu Bhowmick
  *

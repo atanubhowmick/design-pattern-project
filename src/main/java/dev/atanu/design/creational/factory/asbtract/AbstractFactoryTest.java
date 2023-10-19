@@ -14,9 +14,9 @@ public class AbstractFactoryTest {
 	 */
 	public static void main(String[] args) {
 		AbstractFactory androidFactory = FactoryProvider.getFactory("Android");
-		Mobile onePlus = androidFactory.getMobile("Motorola");
-		onePlus.brandName();
-		onePlus.price();
+		Mobile motorola = androidFactory.getMobile("Motorola");
+		motorola.brandName();
+		motorola.price();
 		
 		Mobile samsang = androidFactory.getMobile("Samsung");
 		samsang.brandName();
