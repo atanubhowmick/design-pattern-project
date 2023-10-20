@@ -9,5 +9,5 @@ package dev.atanu.design.structural.proxy;
  */
 public interface InternetAccess {
 
-	public void grantInternetAccess();
+	public boolean grantInternetAccess();
 }

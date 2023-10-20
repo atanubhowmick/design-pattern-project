@@ -16,7 +16,8 @@ public class RealInternetAccess implements InternetAccess {
 	}
 
 	@Override
-	public void grantInternetAccess() {
+	public boolean grantInternetAccess() {
 		System.out.println("Internet Access granted for employee: " + employeeName);
+		return true;
 	}
 }

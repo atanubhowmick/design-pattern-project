@@ -10,19 +10,19 @@ package dev.atanu.design.structural.proxy;
 public class ProxyInternetAccess implements InternetAccess {
 
 	private String employeeName;
-	private RealInternetAccess realAccess;
 
 	public ProxyInternetAccess(String employeeName) {
 		this.employeeName = employeeName;
 	}
 
 	@Override
-	public void grantInternetAccess() {
+	public boolean grantInternetAccess() {
 		if (getRole(employeeName) > 4) {
-			realAccess = new RealInternetAccess(employeeName);
-			realAccess.grantInternetAccess();
+			InternetAccess realAccess = new RealInternetAccess(employeeName);
+			return realAccess.grantInternetAccess();
 		} else {
 			System.out.println("No Internet access granted. Your job level is below 5");
+			return false;
 		}
 	}
 
