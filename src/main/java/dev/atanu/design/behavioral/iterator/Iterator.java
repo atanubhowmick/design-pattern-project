@@ -4,10 +4,12 @@
 package dev.atanu.design.behavioral.iterator;
 
 /**
- * 
  * @author Atanu Bhowmick
  *
  */
-public interface MyCollection {
-	
+public interface Iterator {
+
+	public boolean hasNext();
+
+	public Object getNext();
 }
