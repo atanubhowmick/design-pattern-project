@@ -4,7 +4,10 @@
 package dev.atanu.design.behavioral.strategy;
 
 /**
+ * https://www.digitalocean.com/community/tutorials/strategy-design-pattern-in-java-example-tutorial
+ * https://refactoring.guru/design-patterns/strategy/java/example#example-0
  * 
+ * @author Atanu Bhowmick
  */
 public class ShoppingCartTest {
 
