@@ -36,7 +36,7 @@ There are seven structural design patterns:
 ## Getting Started
 This repository is created to have a quick references of those design patterns. 
 ### Running the Application 
-Classes for each design pattern are placed to its own package. There is a Test class (mane ends with Test) in each package with a main() method to run and verify respective design pattern.
+Classes for each design pattern are placed to its own package. There is a Test class (name ends with Test) in each package with a main() method to run and verify respective design pattern.
 
 ## Declaration 
 There are blogs/tutorials where the design patterns are fully explained. For quick reference the URLs are provided in each Test class documentation. If any code is taken from any tutorial/blog, that URL is also mentioned in Test class documentation and the credit goes to the respective owner. Mentioning few websites to learn the design patterns:
