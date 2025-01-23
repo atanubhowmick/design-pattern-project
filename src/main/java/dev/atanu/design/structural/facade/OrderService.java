@@ -14,6 +14,7 @@ public class OrderService {
 	private List<Product> products;
 
 	public double createOrder(List<Product> products) {
+		this.products = products;
 		System.out.println("Order created");
 		return products.stream().map(Product::getProductPrice).mapToDouble(d -> d).sum();
 	}
