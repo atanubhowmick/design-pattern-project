@@ -3,6 +3,7 @@
  */
 package dev.atanu.design.structural.facade;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import dev.atanu.design.structural.facade.CardDetails.CardType;
@@ -22,8 +23,9 @@ public class FacadePatternTest {
 		
 		Operator operator = new Operator();
 		
-		List<Product> products = List.of(new Product(1L, "HP Pavilion Laptop", 45000.00, "14 Inch", "HP"), 
-				new Product(2L, "Samsung Galaxy s7", 20000.00, "6 Inch", "Samsung"));
+		List<Product> products = new ArrayList<>(); 
+		products.add(new Product(1L, "HP Pavilion Laptop", 45000.00, "14 Inch", "HP")); 
+		products.add(new Product(2L, "Samsung Galaxy s7", 20000.00, "6 Inch", "Samsung"));
 		CardDetails creditCard = new CardDetails(CardType.CREDIT, "Atanu", "1234567890123456", "000", "01/2030");
 		DeliveryAddress address = new DeliveryAddress("A12", "AJ Street", "Kolkata", "WB", 700001);
 		operator.completeOrder(products, creditCard, address);

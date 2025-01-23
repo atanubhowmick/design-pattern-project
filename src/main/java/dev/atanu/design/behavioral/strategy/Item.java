@@ -19,7 +19,7 @@ public class Item {
 
 	public Item(String itemCode, String itemName, double price) {
 		this.itemCode = itemCode;
-		this.setItemName(itemName);
+		this.itemName = itemName;
 		this.price = price;
 	}
 
