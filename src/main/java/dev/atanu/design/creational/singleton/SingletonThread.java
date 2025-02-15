@@ -14,11 +14,12 @@ public class SingletonThread implements Runnable {
 	public SingletonThread(MySingleton mySingleton) {
 		this.mySingleton = mySingleton;
 	}
-	
+
 	@Override
 	public void run() {
 		MySingleton mySingleton1 = MySingleton.getInstance();
-		System.out.println(this.mySingleton == mySingleton1);
+		boolean sameInstance = this.mySingleton == mySingleton1;
+		System.out.println(Thread.currentThread().getName() + " is same instance: " + sameInstance);
 	}
 
 }

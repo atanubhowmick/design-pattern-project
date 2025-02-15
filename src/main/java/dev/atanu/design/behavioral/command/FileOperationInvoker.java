@@ -10,11 +10,11 @@ import java.util.List;
  * @author Atanu Bhowmick
  *
  */
-public class TextFileOperationInvoker {
+public class FileOperationInvoker {
 
-	private List<TextFileCommand> history = new ArrayList<>();
+	private List<FileCommand> history = new ArrayList<>();
 
-	private TextFileCommand command;
+	private FileCommand command;
 
 	public String executeOperation() {
 		if (command == null) {
@@ -24,11 +24,11 @@ public class TextFileOperationInvoker {
 		return command.execute();
 	}
 
-	public void setCommand(TextFileCommand command) {
+	public void setCommand(FileCommand command) {
 		this.command = command;
 	}
 
-	public List<TextFileCommand> getHistory() {
+	public List<FileCommand> getHistory() {
 		return history;
 	}
 
