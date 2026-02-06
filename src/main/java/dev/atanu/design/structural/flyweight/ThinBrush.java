@@ -10,7 +10,7 @@ package dev.atanu.design.structural.flyweight;
 public class ThinBrush implements Brush {
 
 	private String color;
-	final BrushSize brushSize = BrushSize.MEDIUM;
+	final BrushSize brushSize = BrushSize.THIN;
 
 	@Override
 	public void setColor(String color) {
